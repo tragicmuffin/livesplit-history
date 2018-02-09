@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shapes>
+	<rectangles area="x*y">
+		<square>Box</square>
+		<nonsquares property="x!=y" />
+	</rectangles>
+	<ellipses>
+		<circles area="pi*r^2">Ball</circles>
+		<ovals />
+	</ellipses>
+</shapes>

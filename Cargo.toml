@@ -1,0 +1,11 @@
+[package]
+name = "livesplit_history"
+version = "0.1.0"
+authors = ["tragicmuffin <tragicmuffin+gh@gmail.com"]
+
+[dependencies]
+xml-rs = "0.7"
+
+[[bin]]
+name = "livesplit_history"
+path = "src/main.rs"
