@@ -12,7 +12,7 @@ fn indent(size: usize) -> String {
 }
 
 fn main() {
-    let file = File::open("test.xml").unwrap();
+    let file = File::open("../test.xml").unwrap();
     let file = BufReader::new(file);
 
     let parser = EventReader::new(file);
